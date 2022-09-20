@@ -11,6 +11,20 @@ if (isset($_POST['register'])) {
     $name = $_POST['name'];
     $phonenum = $_POST['phonenum'];
     $membership = $_POST['membership'];
+
+    $queryCheckEmail = "SELECT email from users WHERE email= '$email'";
+    $checkEmail = mysqli_query($con, $queryCheckEmail);
+
+    if ($checkEmail) {
+        echo
+            '<script>
+                    alert("Email sudah ada");
+                    window.location = "../index.php"
+                </script>';
+
+        return;
+    }
+
     // Melakukan insert ke databse dengan query dibawah ini
     $query = mysqli_query($con,
         "INSERT INTO users(email, password, name, phonenum, membership)

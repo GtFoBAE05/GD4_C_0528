@@ -16,7 +16,7 @@ EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="a
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container">
                 <!-- Nama : nama panggilan kalian -->
-                <a class="navbar-brand fw-bold" href="/gd4_x_yyyy">PHP - Nama</a>
+                <a class="navbar-brand fw-bold" href="/gd4_x_yyyy">PHP - Imannuel</a>
             </div>
         </nav>
         <div class="bg bg-light text-dark">
